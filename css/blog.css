@@ -1,30 +1,31 @@
 html,body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 14px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.678);
 }
-.navbar.is-white {
-  background: #c0d4e0;
+.navbar.is-black {
+  background: #000000ad;
 }
 .navbar-brand .brand-text {
   font-size: 1.11rem;
   font-weight: bold;
 }
 .hero-body
-{background-image: url(https://media.gq.com/photos/57672ef65db2e8cb18c9e9a8/64:25/w_2943,h_1149,c_limit/homer-simpson-driving.jpg);
-background-position: center;
-background-size: cover;
+{background-image: url(data:image/png;base64,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);
+background-color: rgb(0, 0, 0);
+background-position:-30% -110px;
+background-size: 50%;
 background-repeat: no-repeat;
 font-weight: bold;
-font-size: 34px;
-width: auto;
+font-size: 40px;
+width: 30;
 height: 500px;
-max-width: 100%;
-max-height: 100%;
+max-width: 150%;
+max-height: 150%;
 }
 .articles {
   margin: 5rem 0;
-  margin-top: -200px;
+  margin-top: -50px;
 }
 .articles .content p {
     line-height: 1.9;
@@ -56,8 +57,8 @@ div.column.is-8:first-child {
 }
 .article-title {
   font-size: 2rem;
-  font-weight: lighter;
-  line-height: 2;
+  font-weight: bold;
+  line-height: 5;
 }
 .article-subtitle {
   color: #909AA0;
